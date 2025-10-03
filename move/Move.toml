@@ -1,0 +1,16 @@
+[package]
+name = "Perps-CopyVault"
+version = "1.0.0"
+authors = []
+
+[addresses]
+copyvault = "0x71940f0f7409ef0324c67cca8c9c191682118b19df6b7e2852ffcd23a0d407a1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
